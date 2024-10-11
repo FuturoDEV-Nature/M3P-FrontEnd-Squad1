@@ -43,7 +43,7 @@ form {
 }
 
 label {
-    font-weight: bold;
+    font-weight: medium;
 }
 
 input, select {
@@ -62,6 +62,14 @@ h1 {
     margin-bottom: 20px;
     color: #333;
 }
+
+.disabled-field input {
+    background-color: #f0f0f0;
+    color: #888888;
+    cursor: not-allowed;
+    border: 1px solid #cccccc;
+}
+
 
 @media (min-width: 769px) {
     form {
